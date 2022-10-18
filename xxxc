@@ -1,6 +1,6 @@
 
 getgenv().enabled = true --Toggle on/off
-getgenv().filluseteamcolor = true --Toggle fill color using player team color on/off
+getgenv().filluseteamcolor = false --Toggle fill color using player team color on/off
 getgenv().outlineuseteamcolor = false --Toggle outline color using player team color on/off
 getgenv().fillcolor = Color3.fromRGB(255, 0, 0) --Change fill color, no need to edit if using team color
 getgenv().outlinecolor = Color3.fromRGB(5, 5, 5) --Change outline color, no need to edit if using team color
