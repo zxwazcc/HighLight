@@ -2,9 +2,9 @@
 getgenv().enabled = true --Toggle on/off
 getgenv().filluseteamcolor = false --Toggle fill color using player team color on/off
 getgenv().outlineuseteamcolor = false --Toggle outline color using player team color on/off
-getgenv().fillcolor = Color3.fromRGB(255, 0, 0) --Change fill color, no need to edit if using team color
+getgenv().fillcolor = Color3.fromRGB(205, 84, 75) --Change fill color, no need to edit if using team color
 getgenv().outlinecolor = Color3.fromRGB(5, 5, 5) --Change outline color, no need to edit if using team color
-getgenv().filltrans = 0.3 --Change fill transparency
-getgenv().outlinetrans = 0.3 --Change outline transparency
+getgenv().filltrans = 0.5 --Change fill transparency
+getgenv().outlinetrans = 0.1 --Change outline transparency
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/zntly/highlight-esp/main/esp.lua"))()
